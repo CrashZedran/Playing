@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercios 1 - Canvas y Javascript</title>
+</head>
+<body>
+	<canvas id="myCanvas" width="578" height="200"></canvas>
+	<script type="text/javascript">
+	    var myCanvas = document.getElementById("myCanvas");
+	    var context = myCanvas.getContext("2d");
+
+	    context.font = '40pt Calibri';
+	    context.fillStyle = 'blue';
+	    context.fillText('Hello World!', 150, 100);
+	</script>
+</body>
+</html>
